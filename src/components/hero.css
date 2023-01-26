@@ -34,22 +34,23 @@
 
 }
 
-.heroImg .content{
-    position: relative;
-    transform: translate(- 50%, -50%);
-    top:50%;
-    left:50%;
+ .content{
+    position: absolute;
+    transform: translate(- 80%, -80%);
+    top:40%;
+    left:35%;
     text-align: center;
+    
 
 }
 
-.heroImg .content h1{
+.content h1{
 
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 0.6rem 0 1.5rem;
 }
 
-.heroImg .content p{
+ .content p{
 
     font-size: 1.4rem;
     font-weight: 200;

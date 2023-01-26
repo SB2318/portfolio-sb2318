@@ -14,7 +14,7 @@ const HomeHero = () => {
 
         <div className="content">
             <p>HI,I AM A SOFTWARE ENGINEER INTERN</p>
-           <h1>A Passionate Android Developer</h1>
+           <h1>Android Developer</h1>
            <div>
              <Link to="/project" class="btn">Projects</Link>
              <Link to="/contact" class="btn btn-light">Contact</Link>
