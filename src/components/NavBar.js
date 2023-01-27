@@ -7,13 +7,27 @@ import {FaBars,FaTimes} from "react-icons/fa";
 const NavBar = () => {
 
   const [navClick, setNavClick] = useState(false);
+  const[bgColor,setBgColor] = useState(false);
 
   const handleClick= ()=>{
     setNavClick(!navClick);
-  }
+  };
+
+  const changeColor =() =>{
+
+    // If our website scrolled a fixed amount of pixel,then background changed
+    if(window.scrollY >= 100){
+      setBgColor(true);
+    }else{
+      setBgColor(false);
+    }
+  };
+
+  window.addEventListener("scroll",changeColor);
+
 
   return (
-    <div className="header">
+    <div className={ bgColor? "header header-bg" : "header" }>
         <Link to={"/"}>
             <h1>Portfolio</h1>
         </Link>

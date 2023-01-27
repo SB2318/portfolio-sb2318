@@ -56,3 +56,27 @@
     font-weight: 200;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 640px) {
+    .content h1{
+
+        font-size: 2rem;
+        padding: 0.6rem 0 1.5rem;
+    }
+    
+     .content p{
+    
+        font-size: 1.4rem;
+    }
+
+    .content{
+        position: absolute;
+        transform: translate(- 80%, -80%);
+        top:40%;
+        left:20%;
+        text-align: center;
+        
+    
+    }
+    
+}
