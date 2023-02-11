@@ -7,8 +7,8 @@ const About = () => {
   return (
     <div>
      <NavBar />
-     <IntroPage />
-      <Footer />
+     <IntroPage heading="ABOUT" text="Crafting innovative mobile experiences through code and creativity"/>
+     <Footer/>
     </div>
   )
 }
