@@ -6,12 +6,13 @@
 
 }
 
-.project-container{
-    max-width: 540px;
-    margin: auto;
+.project-container {
+
     display: grid;
-    grid-template-columns: repeat(2,1ftr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    max-width: 1260px;
+    grid-gap: 40px;
     padding-bottom: 5rem;
 }
 
@@ -63,6 +64,7 @@
     .project-container{
         max-width: 90%;
         margin: auto;
-        grid-template-columns: 1ftr;
+        grid-template-columns: 1fr;
     }
+    
 }

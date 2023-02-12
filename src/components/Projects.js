@@ -1,7 +1,7 @@
 import './projectCard.css';
 import React,{Component} from 'react';
 import {NavLink} from "react-router-dom";
-import tracky from '../assets/projects/trackyAssets/tracky_banner.png';
+
 
 
 class Projects extends Component {

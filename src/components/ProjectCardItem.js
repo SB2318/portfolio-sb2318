@@ -9,7 +9,7 @@ class ProjectCardItem extends Component {
     render(){
 
     return(
-      <div className="work-container">
+    <div class='work-container'>
 
         <h1 className="project-heading">
             I have worked on the following projects.
@@ -32,7 +32,7 @@ class ProjectCardItem extends Component {
            }
         </div>
 
-      </div>
+        </div>
     )
 
     }
