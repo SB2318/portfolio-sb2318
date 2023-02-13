@@ -3,7 +3,6 @@ import React,{Component} from 'react';
 import Projects from './Projects';
 import ProjectCardData from './ProjectCardData';
 
-
 class ProjectCardItem extends Component {
 
     render(){
