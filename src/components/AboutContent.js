@@ -11,7 +11,7 @@ const AboutContent = () => {
             <h1>Who Am I?</h1>
             <p>A Native Android Developer who Crafting innovative mobile experiences through code and creativity</p>
 
-            <Link to="./contact">
+            <Link to="/contact">
                 <button className="btn">Contact</button>  
             </Link>
         </div>

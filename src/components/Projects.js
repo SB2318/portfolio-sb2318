@@ -1,6 +1,6 @@
 import './projectCard.css';
 import React,{Component} from 'react';
-import {NavLink} from "react-router-dom";
+
 
 
 
@@ -17,13 +17,14 @@ class Projects extends Component {
       </div>
 
       <div className='pro-btns'>
-        <NavLink to={this.props.view} className="btns">
-          View
-        </NavLink>
 
-        <NavLink to={this.props.source} className="btns">
+        <a href={this.props.view} target="_blank" className="btn">
+          View
+        </a>
+
+        <a href={this.props.source} target="_blank" className="btn">
           Source
-        </NavLink>
+        </a>
 
       </div>
 
