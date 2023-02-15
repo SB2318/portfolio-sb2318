@@ -1,8 +1,8 @@
 import "./aboutContent.css";
 import React from 'react';
 import {Link} from "react-router-dom";
-import android1 from '../assets/about/android1.jpg';
-import android2 from '../assets/about/android2.jpg';
+import android1 from '../../assets/about/android1.jpg';
+import android2 from '../../assets/about/android2.jpg';
 
 const AboutContent = () => {
   return (

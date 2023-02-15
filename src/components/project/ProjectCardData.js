@@ -1,10 +1,10 @@
-import tracky from '../assets/projects/trackyAssets/tracky-banner2.png';
-import iStaff from '../assets/projects/iStaffrotaAssets/iStaffrota_banner.webp';
-import lifeline from '../assets/projects/lifelineAssets/lifeline_banner_2.jpeg';
-import ticpic from '../assets/projects/ticAssets/tic_icn.png';
-import together from '../assets/projects/togetherAssets/camera_page.jpeg';
-import questionPage from '../assets/projects/questionHubAssets/question_hub_first_page.jpeg';
-import carePage from '../assets/projects/careBanner/care_banner.png';
+import tracky from '../../assets/projects/trackyAssets/tracky-banner2.png';
+import iStaff from '../../assets/projects/iStaffrotaAssets/iStaffrota_banner.webp';
+import lifeline from '../../assets/projects/lifelineAssets/lifeline_banner_2.jpeg';
+import ticpic from '../../assets/projects/ticAssets/tic_icn.png';
+import together from '../../assets/projects/togetherAssets/camera_page.jpeg';
+import questionPage from '../../assets/projects/questionHubAssets/question_hub_first_page.jpeg';
+import carePage from '../../assets/projects/careBanner/care_banner.png';
 
 const ProjectCardData=[
 
