@@ -41,12 +41,7 @@ const NavBar = () => {
          <li>
           <Link to="/project">Project</Link>
          </li>
-         <li>
-          <Link to="/achievement">Achievement</Link>
-         </li>
-         <li>
-          <Link to="/articles">Articles</Link>
-         </li>
+      
          <li>
           <Link to="/contact">Contact</Link>
          </li>

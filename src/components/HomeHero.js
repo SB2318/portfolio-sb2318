@@ -1,6 +1,6 @@
 import "./hero.css";
 import React from 'react'
-import IntroImg from '../assets/intro_image.jpeg'
+import IntroImg from '../assets/intro_image.jpg'
 import { Link } from "react-router-dom";
 
 const HomeHero = () => {
@@ -13,9 +13,10 @@ const HomeHero = () => {
         </div>
 
         <div className="content">
-            <p>HI,I AM A SOFTWARE ENGINEER INTERN</p>
-           <h1>Android Developer</h1>
+            <h1>HI,I am an Android Developer</h1>
+           <p>Final year undergraduate student at JGEC.</p>
            <div>
+
              <Link to="/project" class="btn">Projects</Link>
              <Link to="/contact" class="btn btn-light">Contact</Link>
            </div>

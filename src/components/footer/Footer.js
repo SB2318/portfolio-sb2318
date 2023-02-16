@@ -27,8 +27,8 @@ const Footer = () => {
        
         <div className="right">
           <h4>About Me</h4>
-          <p>This is me Susmita Bhattacharya. Software Engineer Intern at TopNotch IT Consultant.
-           I am a dedicated and skilled Android developer who is committed to delivering high-quality  and user-friendly mobile applications.
+          <p>This is me Susmita Bhattacharya.Software Engineer Intern at TopNotch IT Consultant. Currently pursuing B.Tech at Information Technology from J.G.E.C.
+            I am a dedicated Android developer who is committed to delivering high-quality  and user-friendly mobile applications.
           I enjoy discussing new projects and design challenges.</p>
 
           <div className="social-link">
